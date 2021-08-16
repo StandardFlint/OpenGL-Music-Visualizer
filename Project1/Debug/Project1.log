@@ -1,0 +1,19 @@
+﻿  ProgramControl.cpp
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(110,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(145,69): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(146,69): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(211,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(217,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(218,58): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(228,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(229,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(237,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(290,43): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(325,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(326,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(333,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(334,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(340,14): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(346,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\source\repos\Project1\Project1\ProgramControl.cpp(347,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Project1.vcxproj -> C:\Users\Kevin\source\repos\Project1\Debug\Project1.exe

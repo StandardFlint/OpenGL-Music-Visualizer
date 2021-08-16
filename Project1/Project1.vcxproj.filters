@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\audio">
+      <UniqueIdentifier>{67a8fb7d-21d8-47df-9631-9f524239cd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{f869e68d-04b1-404f-8b03-ad754f4f382c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{22145870-2405-4069-8792-906f7fbc2535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{862b10a2-a401-4160-b4b2-5341c10f1856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\libraries">
+      <UniqueIdentifier>{b0465a02-4f24-4671-9337-2eb0491b8a9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\audio\a.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\AP.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\APMBB.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Bach.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\CH.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\ChopinHarp.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\CMA.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\DSM.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Floe.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\GNS.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\GoodMorning.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\GreatGig.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\HOS.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\HOSM.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\KOC.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\LongTime.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\LOS.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\MB.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Moon.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Pokemon.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Prophecies.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Pruit Igoe(S).wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Pruit Igoe.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\R.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\RTS.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\RYW.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\SD.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\SIF.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\sin.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\sins-24b.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\STH.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Stronger.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Survival.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Survival8bit.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\sweep.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\sync.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\TAB.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\TABM.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\TABM2.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Test.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\Time.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\timing.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\UsAndThem.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\USOE.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\ZD.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\2nd.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+    <Media Include="..\audio\8Bit.wav">
+      <Filter>Resource Files\audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\audio\AP.flac">
+      <Filter>Resource Files\audio</Filter>
+    </None>
+    <None Include="..\fonts\Microsoft_Sans_Serif.fnt">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\fonts\Sans_Serif.fnt">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\fonts\Calibri_Light.fnt">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\shaders\LineShaderSegmented.gs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\SolidColorShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\SolidColorShader.gs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\SolidColorShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\TextShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\TextShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\TextureShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\TextureShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\WaveformShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\WaveformShader.gs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\WaveformShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\BlurShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\BlurShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\DefaultShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\DefaultShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\LineShader.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\LineShader.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\LineShaderContinuous.gs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\fonts\Microsoft_Sans_Serif_0.png">
+      <Filter>Resource Files\fonts</Filter>
+    </Image>
+    <Image Include="..\fonts\Sans_Serif_0.png">
+      <Filter>Resource Files\fonts</Filter>
+    </Image>
+    <Image Include="..\fonts\Calibri_Light_0.png">
+      <Filter>Resource Files\fonts</Filter>
+    </Image>
+    <Image Include="..\images\background.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="..\images\dot.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="..\images\wall.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="..\images\Windows10.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\libraries\glew32.lib">
+      <Filter>Resource Files\libraries</Filter>
+    </Library>
+    <Library Include="..\libraries\glfw3.lib">
+      <Filter>Resource Files\libraries</Filter>
+    </Library>
+    <Library Include="..\libraries\OpenAL32.lib">
+      <Filter>Resource Files\libraries</Filter>
+    </Library>
+    <Library Include="..\libraries\libsndfile-1.lib">
+      <Filter>Resource Files\libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Line2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Waveform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioVisual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProgramControl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Waveform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioVisual.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

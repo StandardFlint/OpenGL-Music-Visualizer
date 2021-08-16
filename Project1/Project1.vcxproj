@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b03925e5-4d91-47de-aacb-ff9577efdf4c}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Kevin\source\repos\Project1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>C:\Users\Kevin\source\repos\Project1\libraries\glew32.lib;C:\Users\Kevin\source\repos\Project1\libraries\glfw3.lib;C:\Users\Kevin\source\repos\Project1\libraries\OpenAL32.lib;C:\Users\Kevin\source\repos\Project1\libraries\libsndfile-1.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Kevin\source\repos\Project1\libraries</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Media Include="..\audio\2nd.wav" />
+    <Media Include="..\audio\8Bit.wav" />
+    <Media Include="..\audio\a.wav" />
+    <Media Include="..\audio\AP.wav" />
+    <Media Include="..\audio\APMBB.wav" />
+    <Media Include="..\audio\Bach.wav" />
+    <Media Include="..\audio\CH.wav" />
+    <Media Include="..\audio\ChopinHarp.wav" />
+    <Media Include="..\audio\CMA.wav" />
+    <Media Include="..\audio\DSM.wav" />
+    <Media Include="..\audio\Floe.wav" />
+    <Media Include="..\audio\GNS.wav" />
+    <Media Include="..\audio\GoodMorning.wav" />
+    <Media Include="..\audio\GreatGig.wav" />
+    <Media Include="..\audio\HOS.wav" />
+    <Media Include="..\audio\HOSM.wav" />
+    <Media Include="..\audio\KOC.wav" />
+    <Media Include="..\audio\LongTime.wav" />
+    <Media Include="..\audio\LOS.wav" />
+    <Media Include="..\audio\MB.wav" />
+    <Media Include="..\audio\Moon.wav" />
+    <Media Include="..\audio\Pokemon.wav" />
+    <Media Include="..\audio\Prophecies.wav" />
+    <Media Include="..\audio\Pruit Igoe(S).wav" />
+    <Media Include="..\audio\Pruit Igoe.wav" />
+    <Media Include="..\audio\R.wav" />
+    <Media Include="..\audio\RTS.wav" />
+    <Media Include="..\audio\RYW.wav" />
+    <Media Include="..\audio\SD.wav" />
+    <Media Include="..\audio\SIF.wav" />
+    <Media Include="..\audio\sin.wav" />
+    <Media Include="..\audio\sins-24b.wav" />
+    <Media Include="..\audio\STH.wav" />
+    <Media Include="..\audio\Stronger.wav" />
+    <Media Include="..\audio\Survival.wav" />
+    <Media Include="..\audio\Survival8bit.wav" />
+    <Media Include="..\audio\sweep.wav" />
+    <Media Include="..\audio\sync.wav" />
+    <Media Include="..\audio\TAB.wav" />
+    <Media Include="..\audio\TABM.wav" />
+    <Media Include="..\audio\TABM2.wav" />
+    <Media Include="..\audio\Test.wav" />
+    <Media Include="..\audio\Time.wav" />
+    <Media Include="..\audio\timing.wav" />
+    <Media Include="..\audio\UsAndThem.wav" />
+    <Media Include="..\audio\USOE.wav" />
+    <Media Include="..\audio\ZD.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\audio\AP.flac" />
+    <None Include="..\fonts\Calibri_Light.fnt" />
+    <None Include="..\fonts\Microsoft_Sans_Serif.fnt" />
+    <None Include="..\fonts\Sans_Serif.fnt" />
+    <None Include="..\shaders\BlurShader.fs" />
+    <None Include="..\shaders\BlurShader.vs" />
+    <None Include="..\shaders\DefaultShader.fs" />
+    <None Include="..\shaders\DefaultShader.vs" />
+    <None Include="..\shaders\LineShader.fs" />
+    <None Include="..\shaders\LineShader.vs" />
+    <None Include="..\shaders\LineShaderContinuous.gs" />
+    <None Include="..\shaders\LineShaderSegmented.gs" />
+    <None Include="..\shaders\SolidColorShader.fs" />
+    <None Include="..\shaders\SolidColorShader.gs" />
+    <None Include="..\shaders\SolidColorShader.vs" />
+    <None Include="..\shaders\TextShader.fs" />
+    <None Include="..\shaders\TextShader.vs" />
+    <None Include="..\shaders\TextureShader.fs" />
+    <None Include="..\shaders\TextureShader.vs" />
+    <None Include="..\shaders\WaveformShader.fs" />
+    <None Include="..\shaders\WaveformShader.gs" />
+    <None Include="..\shaders\WaveformShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\fonts\Calibri_Light_0.png" />
+    <Image Include="..\fonts\Microsoft_Sans_Serif_0.png" />
+    <Image Include="..\fonts\Sans_Serif_0.png" />
+    <Image Include="..\images\background.png" />
+    <Image Include="..\images\dot.png" />
+    <Image Include="..\images\wall.png" />
+    <Image Include="..\images\Windows10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\libraries\glew32.lib" />
+    <Library Include="..\libraries\glfw3.lib" />
+    <Library Include="..\libraries\libsndfile-1.lib" />
+    <Library Include="..\libraries\OpenAL32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioVisual.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="IndexBuffer.cpp" />
+    <ClCompile Include="Line2D.cpp" />
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ProgramControl.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="ScreenObject.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="TextureBufferObject.cpp" />
+    <ClCompile Include="VertexBufferObject.cpp" />
+    <ClCompile Include="Wave.cpp" />
+    <ClCompile Include="Waveform.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioVisual.hpp" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="Line2D.h" />
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="ProgramControl.hpp" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="ScreenObject.hpp" />
+    <ClInclude Include="Shader.hpp" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="TextureBufferObject.h" />
+    <ClInclude Include="VertexBufferObject.hpp" />
+    <ClInclude Include="Wave.h" />
+    <ClInclude Include="Waveform.h" />
+    <ClInclude Include="Window.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
